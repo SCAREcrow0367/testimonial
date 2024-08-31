@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Meta from "../../meta";
 
 export default function Home() {
   return (
@@ -6,6 +7,7 @@ export default function Home() {
       <div>
         testimonial
       </div>
+      <Meta></Meta>
     </main>
   );
 }

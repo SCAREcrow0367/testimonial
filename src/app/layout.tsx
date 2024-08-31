@@ -17,7 +17,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const punycode = require('punycode');
+  const punycode = require('punycode/');
 
   return (
     <html lang="en">
